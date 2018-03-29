@@ -13,6 +13,9 @@ export default class App extends React.Component {
 
   componentDidMount() {
     // firebase things?
+    firebase.auth().signInWithPhoneNumber('+923425289404')
+    .then(confirmResult=>console.log(confirmResult))
+    .catch(error=>console.log(error));
   }
 
   render() {
