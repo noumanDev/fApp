@@ -7,7 +7,9 @@
     "babel-preset-react-native-stage-0": "^1.0.1",
     "fs-extra": "^4.0.2",
     "jest": "22.0.6",
+    "react-native-dotenv": "^0.1.1",
     "react-test-renderer": "16.2.0",
+    "redux-immutable-state-invariant": "^2.1.0",
     "replace-in-file": "^3.0.0"
   },
   "scripts": {
@@ -21,7 +23,11 @@
     "preset": "react-native"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "fbjs": "^0.8.16",
+    "lodash": "^4.17.5",
+    "moment": "^2.21.0",
+    "numeral": "^2.0.6",
     "react": "^16.2.0",
     "react-native": "^0.53.0",
     "react-native-config": "^0.11.5",
@@ -30,6 +36,8 @@
     "react-native-navigation": "^1.1.426",
     "react-native-scrollable-tab-view": "^0.8.0",
     "react-native-swiper": "^1.5.13",
-    "react-native-vector-icons": "^4.5.0"
+    "react-native-vector-icons": "^4.5.0",
+    "react-redux": "^5.0.7",
+    "redux-thunk": "^2.2.0"
   }
 }
