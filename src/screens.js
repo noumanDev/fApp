@@ -18,7 +18,7 @@ export function registerScreens(store, Provider) {
 	);
 
 	Navigation.registerComponent(
-		"GoogleMap.LocationPicker",
+		"googleMap.LocationPicker",
 		() => LocationPicker,
 		store,
 		Provider
