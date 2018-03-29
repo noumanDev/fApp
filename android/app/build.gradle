@@ -148,6 +148,13 @@ android {
 }
 
 dependencies {
+    compile project(':react-native-config')
+    compile project(':react-native-config')
+    compile project(':react-native-config')
+    compile project(':react-native-config')
+    compile project(':react-native-config')
+    compile project(':react-native-config')
+    compile project(':react-native-config')
     compile project(':react-native-vector-icons')
     compile(project(':react-native-firebase')) {
         transitive = false

@@ -4,5 +4,5 @@
 
 
 import { AppRegistry } from 'react-native';
-import Nav from './src/nav';
-const App= new Nav();
+import App from './src/app';
+const app= new App();
